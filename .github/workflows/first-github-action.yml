@@ -20,3 +20,4 @@ jobs:
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo ${{ secrets.MY_SECRET_DATA }}
+          echo  ${{ secrets.AWS_SERVER_IP }}
