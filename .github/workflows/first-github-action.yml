@@ -19,3 +19,4 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+          echo ${{ secrets.MY_SECRET_DATA }}
