@@ -8,8 +8,9 @@ jobs:
   My-Action-Job:
     runs-on: ubuntu-latest
     steps:
-      - name: First-Step
-        run: echo "Hello World"
-              
-      - name: Second-Step
-        run: echo "Github Action"
+      - name: First-Step - 리눅스 명령어
+        run: |
+          echo "Hello World"
+          echo "Github Action"
+          pwd
+          ls -al
