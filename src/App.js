@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div align='center'>
+      <h1> 운영팀 웹 어드민 시스템</h1>
+      <h2> Welcome to 운영팀 웹 어드민 시스템 </h2>
+
+      <h2> 연락처: 051) 1234-3456 </h2>
     </div>
   );
 }
